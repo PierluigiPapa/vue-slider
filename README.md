@@ -1,4 +1,4 @@
-## VUE-HELLO
+## VUE-SLIDER
 
 Questo esercizio di Vue.js del corso in Full-Stack Web Development di Boolean Careers è incentrato sulla riproduzione di un carosello, utilizzando Vue per "ristrutturare" lo slider. Oltre a questo, si dovevano aggiungere delle "chicche":
 
