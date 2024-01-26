@@ -48,18 +48,15 @@ createApp ({
                 this.presentImage = 0
             }
         },
-        stopInterval () {
-            clearInterval(this.autoScrool)
-        }
-    },
-    clickImage(index) {
-        this.presentImage = index;
-    },
-    stopPlay() {
-        clearInterval(this.autoScrool);
-    },
-    startPlay (){
-        this.autoScrool = setInterval(this.next, 3000)
+        clickImage(index) {
+            this.presentImage = index;
+        },
+        stopPlay() {
+            clearInterval(this.autoScrool);
+        },
+        startPlay (){
+            this.autoScrool = setInterval(this.next, 3000)
+        },
     },
 
     
