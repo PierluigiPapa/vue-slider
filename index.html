@@ -16,11 +16,11 @@
     <div id="app">
 
         <div class="container">
-            <div class="slider-wrapper" tabindex="0" @mousenter="stopPlay" @mouseleave="startPlay">
+            <div class="slider-wrapper" tabindex="0" @mouseover="autoStopPlay" @mouseleave="autoStartPlay">
 
                 <!-- SECTION BIG IMAGE -->
                 <div class="item">
-                    <img :src="slides[presentImage].image" :alt="slides[presentImage].title" />
+                    <img src="./img/01.webp" :alt="slides[presentImage].title" />
                     <div class="text">
                         <h3>{{slides[presentImage].title}}</h3>
                         <p>

@@ -31,7 +31,7 @@ createApp ({
         }
     },
     created (){
-        this.activeIntervallo()
+        this.autoStartPlay()
     },
     methods: {
         prevImage (){
@@ -51,15 +51,13 @@ createApp ({
         clickImage(index) {
             this.presentImage = index;
         },
-        stopPlay() {
+        autoStopPlay() {
             clearInterval(this.autoScrool);
         },
-        startPlay (){
+        autoStartPlay (){
             this.autoScrool = setInterval(this.next, 3000)
         },
     },
-
-    
 }).mount ('#app')
 
 console.log(slides);
