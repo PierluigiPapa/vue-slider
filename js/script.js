@@ -38,14 +38,14 @@ createApp ({
             this.presentImage --
 
             if (this.presentImage < 0 ) {
-                this.presentImage = this.slides.lenght - 1
+                this.presentImage = this.slides.lenght - 1;
             }
         },
         nextImage (){
             this.presentImage ++
 
             if (this.presentImage > this.slides-leght -1) {
-                this.presentImage = 0
+                this.presentImage = 0;
             }
         },
         clickImage(index) {
@@ -55,7 +55,7 @@ createApp ({
             clearInterval(this.autoScrool);
         },
         autoStartPlay (){
-            this.autoScrool = setInterval(this.next, 3000)
+            this.autoScrool = setInterval(this.nextImage, 3000)
         },
     },
 }).mount ('#app')

@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+[v-cloak] {
+    display:none;
+}
+
 .container {
     height: 100vh;
     display: flex;
@@ -51,7 +59,7 @@
 }
 
 .thumb.active {
-    border: 2px solid #ccc;
+    border: 2px solid #f6f6f6;
     opacity: 1;
 }
 
