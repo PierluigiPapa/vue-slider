@@ -8,10 +8,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-[v-cloak] {
-    display:none;
-}
-
 .container {
     height: 100vh;
     display: flex;
